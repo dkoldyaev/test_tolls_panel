@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+#menu,
+#toolbar,
+#tools,
+#help,
+#statusbar,
+#workplace {
+  display: block;
+  position: absolute;
+  overflow: auto;
+  box-sizing: border-box;
+}
+#menu a,
+#toolbar a,
+#tools a,
+#help a,
+#statusbar a,
+#workplace a {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background: cadetblue;
+  color: #fff;
+  text-align: center;
+}
+#menu {
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 30px;
+  background: gray;
+  padding: 5px;
+  line-height: 0;
+}
+#menu a {
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  font-size: 8px;
+  padding: 0 5px;
+}
+#toolbar {
+  left: 0;
+  right: 0;
+  top: 30px;
+  height: 30px;
+  background: lightskyblue;
+  padding: 5px;
+}
+#toolbar a {
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+  text-decoration: none;
+}
+#tools {
+  left: 0;
+  top: 60px;
+  bottom: 40px;
+  width: 40px;
+  background: lightgoldenrodyellow;
+  padding: 5px;
+}
+#tools a {
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 0 5px;
+}
+#help {
+  right: 0;
+  top: 60px;
+  bottom: 40px;
+  width: 260px;
+  background: lightsteelblue;
+}
+#help--title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 30px;
+  background: gray;
+  padding: 5px;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+#help--title a {
+  float: right;
+  text-decoration: none;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+#help--content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: lightblue;
+  padding: 5px;
+}
+#statusbar {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: lightsalmon;
+  padding: 5px;
+}
+#statusbar a {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 5px;
+}
+#workplace {
+  left: 40px;
+  top: 60px;
+  right: 260px;
+  bottom: 40px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: inset 0 0 20px gray;
+}
